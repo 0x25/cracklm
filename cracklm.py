@@ -31,6 +31,7 @@ parser.add_argument('-o','--output', help='file to save result')
 parser.add_argument('-n','--password', action='store_true', help='use pattern as password not regex')
 
 args = parser.parse_args()
+verbose = False
 
 def crack(job):
 
