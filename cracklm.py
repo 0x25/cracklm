@@ -54,7 +54,8 @@ def main(args):
     hash = ''
     chunk_size = 10000
     patterns = []
-
+    global verbose
+    
     if args.hash is None and args.file is None:
         print('Error: Need hash, set -f or -x')
         sys.exit()
