@@ -1,6 +1,20 @@
 # cracklm
 crack ntlm/lm with regex 💕
 
+need to active md4 in /etc/ssl/openssl.cnf
+```
+[provider_sect]
+default = default_sect
+legacy = legacy_sect
+
+[default_sect]
+activate = 1
+
+[legacy_sect]
+activate = 1
+```
+
+# Help
 ```
 usage: cracklm.py [-h] [-t THREAD] [-f FILE] [-i PFILE] [-x HASH] [-p PATTERN] [-v] [-o OUTPUT] [-n]
 
