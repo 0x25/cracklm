@@ -1,7 +1,8 @@
 # cracklm
-crack ntlm/lm with regex 💕
+Crack ntlm/lm with regex 💕
 
-need to active md4 in /etc/ssl/openssl.cnf
+
+Need to active md4 in /etc/ssl/openssl.cnf
 ```
 [provider_sect]
 default = default_sect
@@ -13,6 +14,7 @@ activate = 1
 [legacy_sect]
 activate = 1
 ```
+
 
 # Help
 ```
