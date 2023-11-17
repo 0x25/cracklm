@@ -1,6 +1,1 @@
-hashlib
-binascii
 exrex
-multiprocessing
-subprocess
-itertools
